@@ -1,0 +1,15 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar.link{
+    padding: 25px;
+}
