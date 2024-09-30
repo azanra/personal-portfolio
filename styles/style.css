@@ -39,3 +39,11 @@ body {
     text-decoration: none;
     color: var(--black);
 }
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 150px;
+}
