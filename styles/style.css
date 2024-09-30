@@ -8,6 +8,10 @@
     font-style: normal;
 }
 
+:root {
+    font-size: 62.5%;
+}
+
 body {
     font-family: "abelregular", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -24,4 +28,5 @@ body {
 
 .nav-bar.link{
     padding: 25px;
+    font-size: 3rem;
 }
