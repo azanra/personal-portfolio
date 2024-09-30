@@ -10,6 +10,7 @@
 
 :root {
     font-size: 62.5%;
+    --black: rgba(0, 0, 0, 1);
 }
 
 body {
@@ -19,6 +20,9 @@ body {
 .header-section {
     display: flex;
     justify-content: space-around;
+    border-bottom: 2px solid var(--black);
+    width: 80%;
+    margin-left: 10%;
 }
 
 .nav-bar {
@@ -29,4 +33,9 @@ body {
 .nav-bar.link{
     padding: 25px;
     font-size: 3rem;
+}
+
+.nav-bar.link a{
+    text-decoration: none;
+    color: var(--black);
 }
