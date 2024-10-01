@@ -25,7 +25,8 @@ body {
     margin-left: 10%;
 }
 
-.nav-bar {
+.nav-bar,
+.link-section {
     display: flex;
     align-items: center;
 }
@@ -47,3 +48,8 @@ body {
     font-weight: 600;
     padding: 150px;
 }
+
+.article-section {
+    display: flex;
+}
+
