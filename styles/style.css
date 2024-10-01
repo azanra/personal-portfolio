@@ -11,10 +11,12 @@
 :root {
     font-size: 62.5%;
     --black: rgba(0, 0, 0, 1);
+    --dark-blue: #2F4550;
 }
 
 body {
     font-family: "abelregular", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 3rem;
 }
 
 .header-section {
@@ -26,14 +28,14 @@ body {
 }
 
 .nav-bar,
-.link-section {
+.link-section,
+.link-container {
     display: flex;
     align-items: center;
 }
 
 .nav-bar.link{
     padding: 25px;
-    font-size: 3rem;
 }
 
 .nav-bar.link a{
@@ -51,5 +53,19 @@ body {
 
 .article-section {
     display: flex;
+    padding: 100px 5px;
 }
 
+.desc-container,
+.link-container {
+    padding: 25px;
+}
+
+.desc-container {
+    background-color: var(--dark-blue);
+    border-radius: 5px;
+    color: white;
+    margin: 0% 15%;
+    padding: 100px 50px;
+    font-weight: bold;
+}
