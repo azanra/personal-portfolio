@@ -1,0 +1,17 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+@font-face {
+    font-family: 'abelregular';
+    src: url('..//styles/fonts/abel/abel-regular-webfont.woff2') format('woff2'),
+         url('../styles/fonts/abel/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "abelregular",system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
