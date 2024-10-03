@@ -57,3 +57,28 @@ body {
     border-top: 2px solid black;
 }
 
+.skills-detail {
+    display: flex;
+}
+
+.programming-section {
+    margin: 0 100px 0 0;
+}
+
+.language-section {
+    width: 100%;
+}
+
+.skills-section {
+    width: 90%;
+    margin-left: 50px;
+    border-top: 2px solid black;
+}
+
+.skills-container > h2 {
+    margin-left: 50px;
+}
+
+.language-section > p:first-child {
+    margin-bottom: 40px;
+}
