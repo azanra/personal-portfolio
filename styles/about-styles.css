@@ -39,3 +39,20 @@ body {
     color: black;
     font-size: 3rem;
 }
+
+.cv-section {
+    border: 2px solid black;
+    width: 80%;
+    margin: 30vh 0 30vh 10vw;
+    font-size: 2rem;
+}
+
+.education-section {
+    padding: 50px;
+}
+
+.uni-degree-section {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
