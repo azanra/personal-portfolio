@@ -96,3 +96,10 @@ h2 {
 .projects-container > h2 {
     margin-left: 3.5%;
 }
+
+.footer-section {
+    width: 80%;
+    height: 15vh;
+    border-top: 2px solid black;
+    margin: 0 10% 0;
+}
