@@ -82,3 +82,17 @@ body {
 .language-section > p:first-child {
     margin-bottom: 40px;
 }
+
+h2 {
+    margin-bottom: 0;
+}
+
+.projects-section {
+    border-top: 2px solid black;
+    width: 93.5%;
+    margin: 0 3.5% 10%;
+}
+
+.projects-container > h2 {
+    margin-left: 3.5%;
+}
