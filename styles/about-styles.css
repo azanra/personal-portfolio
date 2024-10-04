@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'abelregular';
-    src: url('..//styles/fonts/abel/abel-regular-webfont.woff2') format('woff2'),
+    src: url('../styles/fonts/abel/abel-regular-webfont.woff2') format('woff2'),
          url('../styles/fonts/abel/abel-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
