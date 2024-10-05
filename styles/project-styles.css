@@ -14,7 +14,31 @@
 
 body {
     font-family: "abelregular", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 0 10%;
+    font-size: 3rem;
 }
 
+.header-section {
+    border-bottom: 2px solid black;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link-container > a{
+    text-decoration: none;
+    color: black;
+    padding: 0 2.5%;
+}
+
+.link-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
 
 
