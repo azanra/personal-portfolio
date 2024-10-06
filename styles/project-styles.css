@@ -63,5 +63,31 @@ h2 {
     margin-bottom: 10%;
 }
 
+.firstRow-firstColumn > a,
+.firstRow-secondColumn > a {
+    text-decoration: none;
+    margin: 0 5% 0 0;
+}
+
+a:hover {
+    color: blue;
+}
+
+.firstRow-firstColumn-lang,
+.firstRow-secondColumn-lang {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 5%;
+}
+
+.firstRow-firstColumn-lang > div,
+.firstRow-secondColumn-lang > div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+
 
 
