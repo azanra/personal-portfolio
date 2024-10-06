@@ -89,5 +89,10 @@ a:hover {
     font-weight: bold;
 }
 
+.footer-section {
+    border-top: 2px solid black;
+    height: 15vh;
+    margin-top: 20%;
+}
 
 
