@@ -18,8 +18,13 @@ body {
     font-size: 3rem;
 }
 
+h2 {
+    margin-top: 0;
+}
+
 .header-section {
     border-bottom: 2px solid black;
+    margin-bottom: 10%;
 }
 
 .header-container {
@@ -40,5 +45,23 @@ body {
     justify-content: center;
     margin-left: 15%;
 }
+
+.firstRow-firstColumn,
+.firstRow-secondColumn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2.5% 5% ;
+    width: 35%;
+    height: 35vh;
+}
+
+.first-row-project,
+.second-row-project {
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: space-around;
+    margin-bottom: 10%;
+}
+
 
 
