@@ -1,7 +1,7 @@
 # personal-portfolio
 
 ## Links
-- [live preview]()
+- [live preview](https://azanra.github.io/personal-portfolio/)
 
 # About
 This project contain basic personal information, personal project,
